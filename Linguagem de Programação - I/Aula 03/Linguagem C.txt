@@ -1,0 +1,53 @@
+Linguagem C
+
+- Linguagem C veio de B 
+- Lingugem estruturada
+- Livre para escrever do modo que quiser 
+- Case sensitive (maiúsculo e minúsculo importam)
+- Primeira função a ser executada sempre é a main
+- Variaveis definidas no início do bloco
+- TUDO QUE FOR MAIOR QUE 0 É VERDADEIRO 
+
+INT
+CHAR
+DOUBLE 
+FLOAT 
+VOID 
+
+Qualificadores de Tipos
+
+- signed , unsigned 
+- short, long, long long
+
+Variáveis
+
+- <nome, posição na memória, tipo, valor, tempo de vida, escopo>
+		
+	Escopo Local ou Global 
+- onde a variável é vista
+- a prioridade é Local e depois global 
+
+
+
+Cast
+(tipo) expressão
+ex: A= (int)X+2;
+
+
+Constantes ___ Quando algo se repete muitas vezes
+
+#define (nome) valor 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
