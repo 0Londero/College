@@ -1,0 +1,1 @@
+#Isso acontece pois é beneficiente em vários aspectos, como: tratamento específico de exceções e evitar de não tratar alguma, além de melhorar a legibilidade e adicionar hierarquia ao tratamento.

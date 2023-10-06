@@ -34,8 +34,6 @@ class Pedido:
     def __str__(self):
         return f"Total do Pedido: R${self.calcular_total():.2f}\nItens do Pedido:\n" + "\n".join(map(str, self.itens))
 
-
-# Exemplo de uso
 if __name__ == "__main__":
     produto1 = Produto(1, "Camiseta", 20.0)
     produto2 = Produto(2, "Calça", 40.0)
