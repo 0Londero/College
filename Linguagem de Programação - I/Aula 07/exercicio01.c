@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main()
 {
-    int valorUsuario;
-    int *ponteiro;
+//Ler valor
+int valor;
+printf ("Digite um valor inteiro :   ");
+scanf ("%d", &valor);
 
-    printf("Insira um valor: ");
-    scanf("%d", &valorUsuario);
-
-    ponteiro = &valorUsuario;
-
-    printf("\nEndereço de memória do valor armazenado: %p", ponteiro);
-    return 0;
+int *localnamemoria = &valor;
+int *resultado = valor;
+printf ("Local na memória : %d\n", localnamemoria);
+printf ("Valor : %d\n", valor);
 }
